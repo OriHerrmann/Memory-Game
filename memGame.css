@@ -1,0 +1,36 @@
+div#memory_board{
+
+    width:400px;
+    height:540px;
+    padding:24px;
+    margin:0px auto;
+    background: #b8c6df; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b8c6df 0%, #6d88b7 100%);
+    background: -webkit-linear-gradient(top,  #b8c6df 0%,#6d88b7 100%);
+    background: linear-gradient(to bottom,  #b8c6df 0%,#6d88b7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+
+    -webkit-box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+}
+
+div#memory_board > div {
+    background: url("./images/q4.jpg");
+    background-position: center;
+    border: #000 1px solid;
+    width: 71px;
+    height: 71px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.75);
+
+}
+
+
